@@ -1,0 +1,26 @@
+# Core
+requests==2.31.0
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Technical Analysis
+numpy==1.26.3
+pandas==2.1.4
+
+# LLM
+openai==1.6.1
+
+# Scheduling
+apscheduler==3.10.4
+
+# HTTP Server (health endpoint)
+flask==3.0.0
+
+# Logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.4
+pytest-mock==3.12.0
+responses==0.24.1
