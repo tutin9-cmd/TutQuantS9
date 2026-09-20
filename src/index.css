@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+/* Prism.js Theme - GitHub Dark */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #e6edf3;
+  background: none;
+  font-family: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+  line-height: 1.5rem;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  tab-size: 4;
+  hyphens: none;
+}
+
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 0;
+  overflow: auto;
+}
+
+/* Tokens */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #8b949e;
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: #e6edf3;
+}
+
+.token.namespace {
+  opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #79c0ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #a5d6ff;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #79c0ff;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #ff7b72;
+}
+
+.token.function,
+.token.class-name {
+  color: #d2a8ff;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #ffa657;
+}
+
+.token.decorator {
+  color: #ffa657;
+}
+
+/* Python specific */
+.language-python .token.function {
+  color: #d2a8ff;
+}
+
+.language-python .token.keyword {
+  color: #ff7b72;
+}
+
+.language-python .token.string {
+  color: #a5d6ff;
+}
+
+.language-python .token.comment {
+  color: #8b949e;
+}
+
+.language-python .token.decorator {
+  color: #ffa657;
+}
+
+.language-python .token.class-name {
+  color: #7ee787;
+}
+
+.language-python .token.builtin {
+  color: #79c0ff;
+}
+
+/* Docker */
+.language-docker .token.keyword {
+  color: #ff7b72;
+}
+
+.language-docker .token.string {
+  color: #a5d6ff;
+}
+
+/* YAML */
+.language-yaml .token.key {
+  color: #79c0ff;
+}
+
+.language-yaml .token.string {
+  color: #a5d6ff;
+}
+
+/* Bash */
+.language-bash .token.function {
+  color: #d2a8ff;
+}
+
+.language-bash .token.variable {
+  color: #ffa657;
+}
+
+.language-bash .token.comment {
+  color: #8b949e;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #484f58;
+}
+
+/* Custom utilities */
+body {
+  margin: 0;
+  padding: 0;
+  background: #0d1117;
+  color: #e6edf3;
+  overflow: hidden;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
